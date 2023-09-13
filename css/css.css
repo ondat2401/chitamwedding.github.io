@@ -1,16 +1,182 @@
 *{
-    background-color: black;
+    width: auto;
+    padding: 0;
+    margin: 0;
 }
-.wrapper{
-    background-color:rgb(254, 247, 237);
+nav{
+    height: auto;
+    
+    border-bottom:  solid  #175062 7px ;
+}
+.img-banner{
+    height: auto;
+    width: 100%;
+}
+a:hover{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+section{
+    background-color: aquamarine;
+    height: auto;
+    
+}
+#text-body{
+    height: 14.5em;
+    background-color: #1d6578 ;
+    border-bottom:  solid  #983223 7px ;
+    border-top:  solid  #983223 7px ;
+}
+#wc-left{
+    width: 20%;
+    float: left;
+    margin: 1%;
+}
+#wc-right{
+    width: 20%;
+    float: left;
+}
+#welcome{
+   float: left; 
+   width: 60%;
+}
+#text1{
+    font-family: Florence, cursive;
+    font-size: 350%;
+    color: #821e17;
+    font-weight: bold;
+    -webkit-text-stroke: 0.8px #e6d391;
+    text-shadow: 2px 2px 4px black;
+    padding-top: 2%;
+    text-align: center;
+}
+
+#text2{
+    font-family: Florence, cursive;
+    font-size: 200%;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px black;
+    color: #e6d391;
+    padding-top: 2%;
+    text-align: center;
+}
+
+#body{
+    height: auto;
+    background-color: #f5f0d5;
+    border-top:  solid  #175062 7px ;
+}
+#time-left1{
+    float: left;
+    width: 50%;
+
+}
+#time-right2{
+    float: left;
+    width: 50%;
+}
+#time{
+    height: 30em;
+}
+#time-left{
+    float: left;
+    width: 50%;
+    border-right: solid black 3.5px;
+    text-align: center;
+    font-size: 300%;
+    color: #1d6578;
+    font-family: emoji;
+}
+#time-right{
+    float: left;
+    width: 50%;
+    text-align: center;
+    color: #1d6578;
+    font-family: emoji;
+    font-size: 250%;
+    
+}
+
+#circle1{
+    width: 7em;
+    height: 7em;
+    background-color: rgb(232, 179, 20);
+    border-radius:0 0 100% 0;
+    float: left;
+     
+}
+#circle2{
+    width: 7em;
+    height: 7em;
+    background-color: rgb(232, 179, 20);
+    border-radius:0 0 0 100%;
+    float: right;
+}
+
+
+#gioithieu{
+    background-color: #175062;
     height: 500px;
 }
 
 
 
 
+footer{
+    background-color: black;
+    height: 200px;
+    clear: both;
+}
 
 
 
 
 
+
+
+
+@media (max-width: 768px) {
+    #text1 {
+        font-size: 160%; /* Đặt kích thước khi màn hình có chiều rộng dưới 768px */
+    }
+    #text2{
+        font-size: 100%;
+    }
+    #text-body{
+        height: 6em;
+    }
+    #time{
+        height: 11em;
+    }
+    #time-left{
+        font-size: 100%;
+    }
+    #time-right{
+        float: left;
+        width: 50%;
+        text-align: center;
+        color: #1d6578;
+        font-family: emoji;
+        font-size: 100%;
+        
+    }
+    #circle1{
+        width: 3em;
+        height: 3em;
+    }
+    #circle2{
+        width: 3em;
+        height: 3em;
+    }
+}
